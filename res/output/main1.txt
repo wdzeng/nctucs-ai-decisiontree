@@ -1,0 +1,184 @@
+# Basic Test
+train/test=0.0500/0.9500 >> acc=0.754823
+train/test=0.1000/0.9000 >> acc=0.773824
+train/test=0.1500/0.8500 >> acc=0.821017
+train/test=0.2000/0.8000 >> acc=0.814057
+train/test=0.2500/0.7500 >> acc=0.843416
+train/test=0.3000/0.7000 >> acc=0.852059
+train/test=0.3500/0.6500 >> acc=0.866995
+train/test=0.4000/0.6000 >> acc=0.876335
+train/test=0.4500/0.5500 >> acc=0.871928
+train/test=0.5000/0.5000 >> acc=0.884383
+train/test=0.5500/0.4500 >> acc=0.884980
+train/test=0.6000/0.4000 >> acc=0.902580
+train/test=0.6500/0.3500 >> acc=0.893238
+train/test=0.7000/0.3000 >> acc=0.886714
+train/test=0.7500/0.2500 >> acc=0.896797
+train/test=0.8000/0.2000 >> acc=0.899466
+train/test=0.8500/0.1500 >> acc=0.892052
+train/test=0.9000/0.1000 >> acc=0.923488
+train/test=0.9500/0.0500 >> acc=0.914591
+
+# Tree Bagging
+train/test=0.2000/0.8000, train-rate=0.2000, test0 >> acc=0.828959
+train/test=0.2000/0.8000, train-rate=0.2000, test1 >> acc=0.841859
+train/test=0.2000/0.8000, train-rate=0.2000, test2 >> acc=0.853203
+train/test=0.2000/0.8000, train-rate=0.2000, test3 >> acc=0.853870
+train/test=0.2000/0.8000, train-rate=0.2000, test4 >> acc=0.826957
+train/test=0.2000/0.8000, train-rate=0.4000, test0 >> acc=0.872109
+train/test=0.2000/0.8000, train-rate=0.4000, test1 >> acc=0.889457
+train/test=0.2000/0.8000, train-rate=0.4000, test2 >> acc=0.880783
+train/test=0.2000/0.8000, train-rate=0.4000, test3 >> acc=0.865214
+train/test=0.2000/0.8000, train-rate=0.4000, test4 >> acc=0.875890
+train/test=0.2000/0.8000, train-rate=0.6000, test0 >> acc=0.900133
+train/test=0.2000/0.8000, train-rate=0.6000, test1 >> acc=0.880783
+train/test=0.2000/0.8000, train-rate=0.6000, test2 >> acc=0.895018
+train/test=0.2000/0.8000, train-rate=0.6000, test3 >> acc=0.885676
+train/test=0.2000/0.8000, train-rate=0.6000, test4 >> acc=0.875222
+train/test=0.2000/0.8000, train-rate=0.8000, test0 >> acc=0.906806
+train/test=0.2000/0.8000, train-rate=0.8000, test1 >> acc=0.876557
+train/test=0.2000/0.8000, train-rate=0.8000, test2 >> acc=0.875000
+train/test=0.2000/0.8000, train-rate=0.8000, test3 >> acc=0.895685
+train/test=0.2000/0.8000, train-rate=0.8000, test4 >> acc=0.885009
+train/test=0.4000/0.6000, train-rate=0.2000, test0 >> acc=0.882266
+train/test=0.4000/0.6000, train-rate=0.2000, test1 >> acc=0.893238
+train/test=0.4000/0.6000, train-rate=0.2000, test2 >> acc=0.877817
+train/test=0.4000/0.6000, train-rate=0.2000, test3 >> acc=0.878707
+train/test=0.4000/0.6000, train-rate=0.2000, test4 >> acc=0.887900
+train/test=0.4000/0.6000, train-rate=0.4000, test0 >> acc=0.903321
+train/test=0.4000/0.6000, train-rate=0.4000, test1 >> acc=0.909549
+train/test=0.4000/0.6000, train-rate=0.4000, test2 >> acc=0.913998
+train/test=0.4000/0.6000, train-rate=0.4000, test3 >> acc=0.898873
+train/test=0.4000/0.6000, train-rate=0.4000, test4 >> acc=0.901542
+train/test=0.4000/0.6000, train-rate=0.6000, test0 >> acc=0.910142
+train/test=0.4000/0.6000, train-rate=0.6000, test1 >> acc=0.911329
+train/test=0.4000/0.6000, train-rate=0.6000, test2 >> acc=0.920819
+train/test=0.4000/0.6000, train-rate=0.6000, test3 >> acc=0.901246
+train/test=0.4000/0.6000, train-rate=0.6000, test4 >> acc=0.918446
+train/test=0.4000/0.6000, train-rate=0.8000, test0 >> acc=0.918743
+train/test=0.4000/0.6000, train-rate=0.8000, test1 >> acc=0.918149
+train/test=0.4000/0.6000, train-rate=0.8000, test2 >> acc=0.911329
+train/test=0.4000/0.6000, train-rate=0.8000, test3 >> acc=0.897094
+train/test=0.4000/0.6000, train-rate=0.8000, test4 >> acc=0.900356
+train/test=0.6000/0.4000, train-rate=0.2000, test0 >> acc=0.899466
+train/test=0.6000/0.4000, train-rate=0.2000, test1 >> acc=0.903025
+train/test=0.6000/0.4000, train-rate=0.2000, test2 >> acc=0.903025
+train/test=0.6000/0.4000, train-rate=0.2000, test3 >> acc=0.910587
+train/test=0.6000/0.4000, train-rate=0.2000, test4 >> acc=0.920819
+train/test=0.6000/0.4000, train-rate=0.4000, test0 >> acc=0.928381
+train/test=0.6000/0.4000, train-rate=0.4000, test1 >> acc=0.925267
+train/test=0.6000/0.4000, train-rate=0.4000, test2 >> acc=0.922598
+train/test=0.6000/0.4000, train-rate=0.4000, test3 >> acc=0.934609
+train/test=0.6000/0.4000, train-rate=0.4000, test4 >> acc=0.924377
+train/test=0.6000/0.4000, train-rate=0.6000, test0 >> acc=0.928826
+train/test=0.6000/0.4000, train-rate=0.6000, test1 >> acc=0.936388
+train/test=0.6000/0.4000, train-rate=0.6000, test2 >> acc=0.931940
+train/test=0.6000/0.4000, train-rate=0.6000, test3 >> acc=0.912367
+train/test=0.6000/0.4000, train-rate=0.6000, test4 >> acc=0.923043
+train/test=0.6000/0.4000, train-rate=0.8000, test0 >> acc=0.932829
+train/test=0.6000/0.4000, train-rate=0.8000, test1 >> acc=0.923932
+train/test=0.6000/0.4000, train-rate=0.8000, test2 >> acc=0.919484
+train/test=0.6000/0.4000, train-rate=0.8000, test3 >> acc=0.925712
+train/test=0.6000/0.4000, train-rate=0.8000, test4 >> acc=0.933719
+train/test=0.8000/0.2000, train-rate=0.2000, test0 >> acc=0.926157
+train/test=0.8000/0.2000, train-rate=0.2000, test1 >> acc=0.918149
+train/test=0.8000/0.2000, train-rate=0.2000, test2 >> acc=0.922598
+train/test=0.8000/0.2000, train-rate=0.2000, test3 >> acc=0.911032
+train/test=0.8000/0.2000, train-rate=0.2000, test4 >> acc=0.915480
+train/test=0.8000/0.2000, train-rate=0.4000, test0 >> acc=0.936833
+train/test=0.8000/0.2000, train-rate=0.4000, test1 >> acc=0.930605
+train/test=0.8000/0.2000, train-rate=0.4000, test2 >> acc=0.932384
+train/test=0.8000/0.2000, train-rate=0.4000, test3 >> acc=0.927936
+train/test=0.8000/0.2000, train-rate=0.4000, test4 >> acc=0.930605
+train/test=0.8000/0.2000, train-rate=0.6000, test0 >> acc=0.927936
+train/test=0.8000/0.2000, train-rate=0.6000, test1 >> acc=0.920819
+train/test=0.8000/0.2000, train-rate=0.6000, test2 >> acc=0.931495
+train/test=0.8000/0.2000, train-rate=0.6000, test3 >> acc=0.917260
+train/test=0.8000/0.2000, train-rate=0.6000, test4 >> acc=0.934164
+train/test=0.8000/0.2000, train-rate=0.8000, test0 >> acc=0.935943
+train/test=0.8000/0.2000, train-rate=0.8000, test1 >> acc=0.923488
+train/test=0.8000/0.2000, train-rate=0.8000, test2 >> acc=0.936833
+train/test=0.8000/0.2000, train-rate=0.8000, test3 >> acc=0.919929
+train/test=0.8000/0.2000, train-rate=0.8000, test4 >> acc=0.938612
+
+# Attribute Bagging
+train/test=0.2000/0.8000, attr-picked=12, test0 >> acc=0.824066
+train/test=0.2000/0.8000, attr-picked=12, test1 >> acc=0.832518
+train/test=0.2000/0.8000, attr-picked=12, test2 >> acc=0.911254
+train/test=0.2000/0.8000, attr-picked=12, test3 >> acc=0.855872
+train/test=0.2000/0.8000, attr-picked=12, test4 >> acc=0.897909
+train/test=0.2000/0.8000, attr-picked=25, test0 >> acc=0.824288
+train/test=0.2000/0.8000, attr-picked=25, test1 >> acc=0.844084
+train/test=0.2000/0.8000, attr-picked=25, test2 >> acc=0.882117
+train/test=0.2000/0.8000, attr-picked=25, test3 >> acc=0.830516
+train/test=0.2000/0.8000, attr-picked=25, test4 >> acc=0.839635
+train/test=0.2000/0.8000, attr-picked=38, test0 >> acc=0.882562
+train/test=0.2000/0.8000, attr-picked=38, test1 >> acc=0.844751
+train/test=0.2000/0.8000, attr-picked=38, test2 >> acc=0.872553
+train/test=0.2000/0.8000, attr-picked=38, test3 >> acc=0.873443
+train/test=0.2000/0.8000, attr-picked=38, test4 >> acc=0.833185
+train/test=0.2000/0.8000, attr-picked=51, test0 >> acc=0.843416
+train/test=0.2000/0.8000, attr-picked=51, test1 >> acc=0.878559
+train/test=0.2000/0.8000, attr-picked=51, test2 >> acc=0.848977
+train/test=0.2000/0.8000, attr-picked=51, test3 >> acc=0.851423
+train/test=0.2000/0.8000, attr-picked=51, test4 >> acc=0.841415
+train/test=0.4000/0.6000, attr-picked=12, test0 >> acc=0.937426
+train/test=0.4000/0.6000, attr-picked=12, test1 >> acc=0.911625
+train/test=0.4000/0.6000, attr-picked=12, test2 >> acc=0.891163
+train/test=0.4000/0.6000, attr-picked=12, test3 >> acc=0.862100
+train/test=0.4000/0.6000, attr-picked=12, test4 >> acc=0.899763
+train/test=0.4000/0.6000, attr-picked=25, test0 >> acc=0.858541
+train/test=0.4000/0.6000, attr-picked=25, test1 >> acc=0.894425
+train/test=0.4000/0.6000, attr-picked=25, test2 >> acc=0.863286
+train/test=0.4000/0.6000, attr-picked=25, test3 >> acc=0.925267
+train/test=0.4000/0.6000, attr-picked=25, test4 >> acc=0.910735
+train/test=0.4000/0.6000, attr-picked=38, test0 >> acc=0.860617
+train/test=0.4000/0.6000, attr-picked=38, test1 >> acc=0.872479
+train/test=0.4000/0.6000, attr-picked=38, test2 >> acc=0.874852
+train/test=0.4000/0.6000, attr-picked=38, test3 >> acc=0.870107
+train/test=0.4000/0.6000, attr-picked=38, test4 >> acc=0.882266
+train/test=0.4000/0.6000, attr-picked=51, test0 >> acc=0.854686
+train/test=0.4000/0.6000, attr-picked=51, test1 >> acc=0.872776
+train/test=0.4000/0.6000, attr-picked=51, test2 >> acc=0.878410
+train/test=0.4000/0.6000, attr-picked=51, test3 >> acc=0.873665
+train/test=0.4000/0.6000, attr-picked=51, test4 >> acc=0.869217
+train/test=0.6000/0.4000, attr-picked=12, test0 >> acc=0.943060
+train/test=0.6000/0.4000, attr-picked=12, test1 >> acc=0.927046
+train/test=0.6000/0.4000, attr-picked=12, test2 >> acc=0.909698
+train/test=0.6000/0.4000, attr-picked=12, test3 >> acc=0.938167
+train/test=0.6000/0.4000, attr-picked=12, test4 >> acc=0.922598
+train/test=0.6000/0.4000, attr-picked=25, test0 >> acc=0.884342
+train/test=0.6000/0.4000, attr-picked=25, test1 >> acc=0.928381
+train/test=0.6000/0.4000, attr-picked=25, test2 >> acc=0.929270
+train/test=0.6000/0.4000, attr-picked=25, test3 >> acc=0.883007
+train/test=0.6000/0.4000, attr-picked=25, test4 >> acc=0.880338
+train/test=0.6000/0.4000, attr-picked=38, test0 >> acc=0.887011
+train/test=0.6000/0.4000, attr-picked=38, test1 >> acc=0.892349
+train/test=0.6000/0.4000, attr-picked=38, test2 >> acc=0.895018
+train/test=0.6000/0.4000, attr-picked=38, test3 >> acc=0.900801
+train/test=0.6000/0.4000, attr-picked=38, test4 >> acc=0.882117
+train/test=0.6000/0.4000, attr-picked=51, test0 >> acc=0.870996
+train/test=0.6000/0.4000, attr-picked=51, test1 >> acc=0.873221
+train/test=0.6000/0.4000, attr-picked=51, test2 >> acc=0.884342
+train/test=0.6000/0.4000, attr-picked=51, test3 >> acc=0.883452
+train/test=0.6000/0.4000, attr-picked=51, test4 >> acc=0.887900
+train/test=0.8000/0.2000, attr-picked=12, test0 >> acc=0.932384
+train/test=0.8000/0.2000, attr-picked=12, test1 >> acc=0.901246
+train/test=0.8000/0.2000, attr-picked=12, test2 >> acc=0.924377
+train/test=0.8000/0.2000, attr-picked=12, test3 >> acc=0.960854
+train/test=0.8000/0.2000, attr-picked=12, test4 >> acc=0.920819
+train/test=0.8000/0.2000, attr-picked=25, test0 >> acc=0.907473
+train/test=0.8000/0.2000, attr-picked=25, test1 >> acc=0.933274
+train/test=0.8000/0.2000, attr-picked=25, test2 >> acc=0.930605
+train/test=0.8000/0.2000, attr-picked=25, test3 >> acc=0.888790
+train/test=0.8000/0.2000, attr-picked=25, test4 >> acc=0.937722
+train/test=0.8000/0.2000, attr-picked=38, test0 >> acc=0.900356
+train/test=0.8000/0.2000, attr-picked=38, test1 >> acc=0.912811
+train/test=0.8000/0.2000, attr-picked=38, test2 >> acc=0.902135
+train/test=0.8000/0.2000, attr-picked=38, test3 >> acc=0.907473
+train/test=0.8000/0.2000, attr-picked=38, test4 >> acc=0.917260
+train/test=0.8000/0.2000, attr-picked=51, test0 >> acc=0.904804
+train/test=0.8000/0.2000, attr-picked=51, test1 >> acc=0.894128
+train/test=0.8000/0.2000, attr-picked=51, test2 >> acc=0.896797
+train/test=0.8000/0.2000, attr-picked=51, test3 >> acc=0.879004
+train/test=0.8000/0.2000, attr-picked=51, test4 >> acc=0.891459
